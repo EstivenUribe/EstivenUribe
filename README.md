@@ -8,7 +8,7 @@
   <source media="(max-width: 680px) and (prefers-reduced-motion: no-preference)" srcset="./assets/identity/estiven-terminal-mobile-scan.svg">
   <source media="(max-width: 680px)" srcset="./assets/identity/estiven-terminal-mobile.svg">
   <source media="(prefers-reduced-motion: no-preference)" srcset="./assets/identity/estiven-terminal-scan.svg">
-  <img src="./assets/identity/estiven-terminal.svg" width="100%" alt="Rafael Estiven Uribe Álvarez · Backend, APIs, SQL · Medellín, Colombia">
+  <img src="./assets/identity/estiven-terminal.svg" width="100%" alt="Rafael Estiven Uribe Álvarez · Backend, APIs, SQL y aprendizaje automático · Medellín, Colombia">
 </picture></h2>
 
 <p align="left">
@@ -79,7 +79,7 @@ En un proyecto de clase, mi equipo hizo una prueba piloto con pix2pix usando par
   <img src="./assets/ai/pix2pix.svg" width="468" alt="Esquema de pix2pix. Un mapa de calles entra en una U-Net. Las conexiones de salto llevan detalles al decodificador para generar una imagen de aspecto aéreo.">
 </picture>
 
-[Volver a ver la U-Net en movimiento](https://raw.githubusercontent.com/EstivenUribe/EstivenUribe/main/assets/ai/pix2pix-motion.svg) · [Resultados del piloto (CSV)](./assets/ai/pix2pix-pilot.csv) · [Artículo original](https://phillipi.github.io/pix2pix/)
+[Abrir la animación de la U-Net](https://raw.githubusercontent.com/EstivenUribe/EstivenUribe/main/assets/ai/pix2pix-motion.svg) · [Resultados del piloto (CSV)](./assets/ai/pix2pix-pilot.csv) · [Artículo original](https://phillipi.github.io/pix2pix/)
 
 ## <samp>Competencias técnicas</samp>
 
@@ -108,7 +108,7 @@ En un proyecto de clase, mi equipo hizo una prueba piloto con pix2pix usando par
   <img src="./assets/ai/lstm-window.svg" width="468" alt="Una ventana móvil resalta diez muestras consecutivas de la onda seno original que recibe la LSTM.">
 </picture>
 
-[Volver a ver la ventana en movimiento](https://raw.githubusercontent.com/EstivenUribe/EstivenUribe/main/assets/ai/lstm-window-motion.svg) · [Resultados del ejercicio (CSV)](./assets/ai/lstm-window-results.csv)
+[Abrir la animación de la ventana](https://raw.githubusercontent.com/EstivenUribe/EstivenUribe/main/assets/ai/lstm-window-motion.svg) · [Resultados del ejercicio (CSV)](./assets/ai/lstm-window-results.csv)
 
 **Ingeniería Informática** · Curso el último semestre en el Politécnico Colombiano Jaime Isaza Cadavid. También soy ingeniero civil.
 
@@ -129,7 +129,7 @@ Busco oportunidades en desarrollo backend e ingeniería de datos en Colombia y e
   <source media="(max-width: 680px) and (prefers-reduced-motion: no-preference)" srcset="./assets/identity/estiven-terminal-mobile-scan.svg">
   <source media="(max-width: 680px)" srcset="./assets/identity/estiven-terminal-mobile.svg">
   <source media="(prefers-reduced-motion: no-preference)" srcset="./assets/identity/estiven-terminal-scan.svg">
-  <img src="./assets/identity/estiven-terminal.svg" width="100%" alt="Rafael Estiven Uribe Álvarez · Backend, APIs, SQL · Medellín, Colombia">
+  <img src="./assets/identity/estiven-terminal.svg" width="100%" alt="Rafael Estiven Uribe Álvarez · Backend, APIs, SQL and Machine Learning · Medellín, Colombia">
 </picture></h1>
 
 <p align="left">
@@ -194,7 +194,7 @@ In a course project, my team ran a pix2pix pilot on paired maps and aerial photo
   <img src="./assets/ai/pix2pix.svg" width="468" alt="Schematic of pix2pix. A street map goes into a U-Net. Skip connections carry detail across the network as it generates an aerial-style image.">
 </picture>
 
-[Replay the U-Net animation][replay-pix2pix] · [Pilot results (CSV)](./assets/ai/pix2pix-pilot.csv) · [Original paper][pix2pix-paper]
+[Open the U-Net animation][replay-pix2pix] · [Pilot results (CSV)](./assets/ai/pix2pix-pilot.csv) · [Original paper][pix2pix-paper]
 
 ## <samp>Technical skills</samp>
 
@@ -223,7 +223,7 @@ In a course project, my team ran a pix2pix pilot on paired maps and aerial photo
   <img src="./assets/ai/lstm-window.svg" width="468" alt="A sliding window highlights ten consecutive samples of the original sine wave used as input to the LSTM.">
 </picture>
 
-[Replay the sliding window][replay-lstm] · [Experiment results (CSV)](./assets/ai/lstm-window-results.csv)
+[Open the sliding-window animation][replay-lstm] · [Experiment results (CSV)](./assets/ai/lstm-window-results.csv)
 
 **Informatics Engineering** · Final semester at Politécnico Colombiano Jaime Isaza Cadavid. I also hold a degree in Civil Engineering.
 

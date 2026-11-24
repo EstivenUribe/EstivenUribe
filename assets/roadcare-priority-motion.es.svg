@@ -9,9 +9,14 @@
 <style>text {font-family:'SFMono-Regular',Consolas,'Liberation Mono',monospace}
 @media (prefers-reduced-motion: no-preference) {
 
-  .bar {transform-box:fill-box;transform-origin:left center;animation:fillbar 1s cubic-bezier(.25,.8,.35,1) 1 backwards}
+  .bar {transform-box:fill-box;transform-origin:left center;animation:fillbar 6s cubic-bezier(.25,.8,.35,1) infinite backwards}
   .b0 {animation-delay:.12s} .b1 {animation-delay:.52s}
-  @keyframes fillbar {from {transform:scaleX(0)} to {transform:scaleX(1)}}
+  @keyframes fillbar {
+    0% {transform:scaleX(0);opacity:0}
+    4% {opacity:1}
+    23%,80% {transform:scaleX(1);opacity:1}
+    96%,100% {transform:scaleX(1);opacity:0}
+  }
 
 }</style>
 <rect x=".75" y=".75" width="438.5" height="145.5" rx="12" fill="url(#paper)" stroke="#3d566d" stroke-width="1.5"/>
@@ -19,15 +24,15 @@
 <path d="M20 42H420" stroke="#31475c"/>
 <text x="20" y="65" font-size="15.5" fill="#bed0e5" text-anchor="start" font-weight="400">Fuera de zona crítica</text>
 <text x="420" y="65" font-size="17" fill="#84b6ff" text-anchor="end" font-weight="700">9 · Media</text>
-<rect x="20" y="74" width="27" height="8" rx="2" fill="#2b4055"/>
-<rect x="51" y="74" width="27" height="8" rx="2" fill="#2b4055"/>
-<rect x="82" y="74" width="27" height="8" rx="2" fill="#2b4055"/>
-<rect x="113" y="74" width="27" height="8" rx="2" fill="#2b4055"/>
-<rect x="144" y="74" width="27" height="8" rx="2" fill="#2b4055"/>
-<rect x="175" y="74" width="27" height="8" rx="2" fill="#2b4055"/>
-<rect x="206" y="74" width="27" height="8" rx="2" fill="#2b4055"/>
-<rect x="237" y="74" width="27" height="8" rx="2" fill="#2b4055"/>
-<rect x="268" y="74" width="27" height="8" rx="2" fill="#2b4055"/>
+<rect x="20" y="74" width="27" height="8" rx="2" fill="#476385"/>
+<rect x="51" y="74" width="27" height="8" rx="2" fill="#476385"/>
+<rect x="82" y="74" width="27" height="8" rx="2" fill="#476385"/>
+<rect x="113" y="74" width="27" height="8" rx="2" fill="#476385"/>
+<rect x="144" y="74" width="27" height="8" rx="2" fill="#476385"/>
+<rect x="175" y="74" width="27" height="8" rx="2" fill="#476385"/>
+<rect x="206" y="74" width="27" height="8" rx="2" fill="#476385"/>
+<rect x="237" y="74" width="27" height="8" rx="2" fill="#476385"/>
+<rect x="268" y="74" width="27" height="8" rx="2" fill="#476385"/>
 <rect x="299" y="74" width="27" height="8" rx="2" fill="#2b4055"/>
 <rect x="330" y="74" width="27" height="8" rx="2" fill="#2b4055"/>
 <rect x="361" y="74" width="27" height="8" rx="2" fill="#2b4055"/>
@@ -35,18 +40,18 @@
 <g class="bar b0"><rect x="20" y="74" width="27" height="8" rx="2" fill="#84b6ff"/><rect x="51" y="74" width="27" height="8" rx="2" fill="#84b6ff"/><rect x="82" y="74" width="27" height="8" rx="2" fill="#84b6ff"/><rect x="113" y="74" width="27" height="8" rx="2" fill="#84b6ff"/><rect x="144" y="74" width="27" height="8" rx="2" fill="#84b6ff"/><rect x="175" y="74" width="27" height="8" rx="2" fill="#84b6ff"/><rect x="206" y="74" width="27" height="8" rx="2" fill="#84b6ff"/><rect x="237" y="74" width="27" height="8" rx="2" fill="#84b6ff"/><rect x="268" y="74" width="27" height="8" rx="2" fill="#84b6ff"/></g>
 <text x="20" y="113" font-size="15.5" fill="#bed0e5" text-anchor="start" font-weight="400">En zona crítica</text>
 <text x="420" y="113" font-size="17" fill="#74e8dc" text-anchor="end" font-weight="700">13 · Alta</text>
-<rect x="20" y="122" width="27" height="8" rx="2" fill="#2b4055"/>
-<rect x="51" y="122" width="27" height="8" rx="2" fill="#2b4055"/>
-<rect x="82" y="122" width="27" height="8" rx="2" fill="#2b4055"/>
-<rect x="113" y="122" width="27" height="8" rx="2" fill="#2b4055"/>
-<rect x="144" y="122" width="27" height="8" rx="2" fill="#2b4055"/>
-<rect x="175" y="122" width="27" height="8" rx="2" fill="#2b4055"/>
-<rect x="206" y="122" width="27" height="8" rx="2" fill="#2b4055"/>
-<rect x="237" y="122" width="27" height="8" rx="2" fill="#2b4055"/>
-<rect x="268" y="122" width="27" height="8" rx="2" fill="#2b4055"/>
-<rect x="299" y="122" width="27" height="8" rx="2" fill="#2b4055"/>
-<rect x="330" y="122" width="27" height="8" rx="2" fill="#2b4055"/>
-<rect x="361" y="122" width="27" height="8" rx="2" fill="#2b4055"/>
-<rect x="392" y="122" width="27" height="8" rx="2" fill="#2b4055"/>
+<rect x="20" y="122" width="27" height="8" rx="2" fill="#476385"/>
+<rect x="51" y="122" width="27" height="8" rx="2" fill="#476385"/>
+<rect x="82" y="122" width="27" height="8" rx="2" fill="#476385"/>
+<rect x="113" y="122" width="27" height="8" rx="2" fill="#476385"/>
+<rect x="144" y="122" width="27" height="8" rx="2" fill="#476385"/>
+<rect x="175" y="122" width="27" height="8" rx="2" fill="#476385"/>
+<rect x="206" y="122" width="27" height="8" rx="2" fill="#476385"/>
+<rect x="237" y="122" width="27" height="8" rx="2" fill="#476385"/>
+<rect x="268" y="122" width="27" height="8" rx="2" fill="#476385"/>
+<rect x="299" y="122" width="27" height="8" rx="2" fill="#386e71"/>
+<rect x="330" y="122" width="27" height="8" rx="2" fill="#386e71"/>
+<rect x="361" y="122" width="27" height="8" rx="2" fill="#386e71"/>
+<rect x="392" y="122" width="27" height="8" rx="2" fill="#386e71"/>
 <g class="bar b1"><rect x="20" y="122" width="27" height="8" rx="2" fill="#84b6ff"/><rect x="51" y="122" width="27" height="8" rx="2" fill="#84b6ff"/><rect x="82" y="122" width="27" height="8" rx="2" fill="#84b6ff"/><rect x="113" y="122" width="27" height="8" rx="2" fill="#84b6ff"/><rect x="144" y="122" width="27" height="8" rx="2" fill="#84b6ff"/><rect x="175" y="122" width="27" height="8" rx="2" fill="#84b6ff"/><rect x="206" y="122" width="27" height="8" rx="2" fill="#84b6ff"/><rect x="237" y="122" width="27" height="8" rx="2" fill="#84b6ff"/><rect x="268" y="122" width="27" height="8" rx="2" fill="#84b6ff"/><rect x="299" y="122" width="27" height="8" rx="2" fill="#74e8dc"/><rect x="330" y="122" width="27" height="8" rx="2" fill="#74e8dc"/><rect x="361" y="122" width="27" height="8" rx="2" fill="#74e8dc"/><rect x="392" y="122" width="27" height="8" rx="2" fill="#74e8dc"/></g>
 </svg>

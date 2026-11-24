@@ -9,8 +9,14 @@
 <style>text {font-family:'SFMono-Regular',Consolas,'Liberation Mono',monospace}
 @media (prefers-reduced-motion: no-preference) {
 
-  .window {animation:slide 1.85s cubic-bezier(.34,.05,.26,1) .10s 1 backwards}
-  @keyframes slide {from {transform:translateX(-102.4px)} to {transform:translateX(0)}}
+  .window {animation:slide 6s ease-in-out infinite}
+  .window.frame {animation-name:slide,fade-window}
+  .highlight {animation:fade-window 6s ease-in-out infinite}
+  @keyframes slide {
+    0%,6%,97%,100% {transform:translateX(-102.4px)}
+    48%,95% {transform:translateX(0)}
+  }
+  @keyframes fade-window {0%,95%,100% {opacity:0} 6%,82% {opacity:1}}
 
 }</style>
 <rect x=".75" y=".75" width="466.5" height="155.5" rx="12" fill="url(#paper)" stroke="#3d566d" stroke-width="1.5"/>
@@ -24,10 +30,10 @@
 <text x="23" y="90.5" font-size="12" fill="#a4b9cf" text-anchor="end" font-weight="400">0</text>
 <path d="M31 118.5H443" stroke="#31485e" stroke-width=".9" stroke-dasharray="2 4"/>
 <text x="23" y="122.5" font-size="12" fill="#a4b9cf" text-anchor="end" font-weight="400">−1</text>
-<rect class="window" x="198.40" y="47" width="121.20" height="78" rx="3" fill="#65e5dc" fill-opacity=".10" stroke="#65c8ca" stroke-width="1.15"/>
+<rect class="window frame" x="198.40" y="47" width="121.20" height="78" rx="3" fill="#65e5dc" fill-opacity=".10" stroke="#65c8ca" stroke-width="1.15"/>
 <path d="M35.00,86.50 47.80,78.58 60.60,71.14 73.40,64.67 86.20,59.56 99.00,56.12 111.80,54.58 124.60,55.02 137.40,57.43 150.20,61.65 163.00,67.41 175.80,74.37 188.60,82.08 201.40,90.07 214.20,97.83 227.00,104.89 239.80,110.80 252.60,115.20 265.40,117.81 278.20,118.47 291.00,117.14 303.80,113.90 316.60,108.95 329.40,102.61 342.20,95.26 355.00,87.36 367.80,79.41 380.60,71.91 393.40,65.31 406.20,60.03 419.00,56.40 431.80,54.65" fill="none" stroke="#7da6d2" stroke-width="1.85"/>
 <g fill="#84b6ff"><circle cx="35.00" cy="86.50" r="1.95"/><circle cx="47.80" cy="78.58" r="1.95"/><circle cx="60.60" cy="71.14" r="1.95"/><circle cx="73.40" cy="64.67" r="1.95"/><circle cx="86.20" cy="59.56" r="1.95"/><circle cx="99.00" cy="56.12" r="1.95"/><circle cx="111.80" cy="54.58" r="1.95"/><circle cx="124.60" cy="55.02" r="1.95"/><circle cx="137.40" cy="57.43" r="1.95"/><circle cx="150.20" cy="61.65" r="1.95"/><circle cx="163.00" cy="67.41" r="1.95"/><circle cx="175.80" cy="74.37" r="1.95"/><circle cx="188.60" cy="82.08" r="1.95"/><circle cx="201.40" cy="90.07" r="1.95"/><circle cx="214.20" cy="97.83" r="1.95"/><circle cx="227.00" cy="104.89" r="1.95"/><circle cx="239.80" cy="110.80" r="1.95"/><circle cx="252.60" cy="115.20" r="1.95"/><circle cx="265.40" cy="117.81" r="1.95"/><circle cx="278.20" cy="118.47" r="1.95"/><circle cx="291.00" cy="117.14" r="1.95"/><circle cx="303.80" cy="113.90" r="1.95"/><circle cx="316.60" cy="108.95" r="1.95"/><circle cx="329.40" cy="102.61" r="1.95"/><circle cx="342.20" cy="95.26" r="1.95"/><circle cx="355.00" cy="87.36" r="1.95"/><circle cx="367.80" cy="79.41" r="1.95"/><circle cx="380.60" cy="71.91" r="1.95"/><circle cx="393.40" cy="65.31" r="1.95"/><circle cx="406.20" cy="60.03" r="1.95"/><circle cx="419.00" cy="56.40" r="1.95"/><circle cx="431.80" cy="54.65" r="1.95"/></g>
-<g clip-path="url(#samples)"><path d="M35.00,86.50 47.80,78.58 60.60,71.14 73.40,64.67 86.20,59.56 99.00,56.12 111.80,54.58 124.60,55.02 137.40,57.43 150.20,61.65 163.00,67.41 175.80,74.37 188.60,82.08 201.40,90.07 214.20,97.83 227.00,104.89 239.80,110.80 252.60,115.20 265.40,117.81 278.20,118.47 291.00,117.14 303.80,113.90 316.60,108.95 329.40,102.61 342.20,95.26 355.00,87.36 367.80,79.41 380.60,71.91 393.40,65.31 406.20,60.03 419.00,56.40 431.80,54.65" fill="none" stroke="#74e8dc" stroke-width="2.7"/>
+<g class="highlight" clip-path="url(#samples)"><path d="M35.00,86.50 47.80,78.58 60.60,71.14 73.40,64.67 86.20,59.56 99.00,56.12 111.80,54.58 124.60,55.02 137.40,57.43 150.20,61.65 163.00,67.41 175.80,74.37 188.60,82.08 201.40,90.07 214.20,97.83 227.00,104.89 239.80,110.80 252.60,115.20 265.40,117.81 278.20,118.47 291.00,117.14 303.80,113.90 316.60,108.95 329.40,102.61 342.20,95.26 355.00,87.36 367.80,79.41 380.60,71.91 393.40,65.31 406.20,60.03 419.00,56.40 431.80,54.65" fill="none" stroke="#74e8dc" stroke-width="2.7"/>
 <g fill="#bcfff1"><circle cx="35.00" cy="86.50" r="3.3"/><circle cx="47.80" cy="78.58" r="3.3"/><circle cx="60.60" cy="71.14" r="3.3"/><circle cx="73.40" cy="64.67" r="3.3"/><circle cx="86.20" cy="59.56" r="3.3"/><circle cx="99.00" cy="56.12" r="3.3"/><circle cx="111.80" cy="54.58" r="3.3"/><circle cx="124.60" cy="55.02" r="3.3"/><circle cx="137.40" cy="57.43" r="3.3"/><circle cx="150.20" cy="61.65" r="3.3"/><circle cx="163.00" cy="67.41" r="3.3"/><circle cx="175.80" cy="74.37" r="3.3"/><circle cx="188.60" cy="82.08" r="3.3"/><circle cx="201.40" cy="90.07" r="3.3"/><circle cx="214.20" cy="97.83" r="3.3"/><circle cx="227.00" cy="104.89" r="3.3"/><circle cx="239.80" cy="110.80" r="3.3"/><circle cx="252.60" cy="115.20" r="3.3"/><circle cx="265.40" cy="117.81" r="3.3"/><circle cx="278.20" cy="118.47" r="3.3"/><circle cx="291.00" cy="117.14" r="3.3"/><circle cx="303.80" cy="113.90" r="3.3"/><circle cx="316.60" cy="108.95" r="3.3"/><circle cx="329.40" cy="102.61" r="3.3"/><circle cx="342.20" cy="95.26" r="3.3"/><circle cx="355.00" cy="87.36" r="3.3"/><circle cx="367.80" cy="79.41" r="3.3"/><circle cx="380.60" cy="71.91" r="3.3"/><circle cx="393.40" cy="65.31" r="3.3"/><circle cx="406.20" cy="60.03" r="3.3"/><circle cx="419.00" cy="56.40" r="3.3"/><circle cx="431.80" cy="54.65" r="3.3"/></g></g>
 <text x="35" y="145" font-size="14" fill="#bed0e5" text-anchor="start" font-weight="400">sin(t)</text>
 <text x="442" y="145" font-size="16" fill="#bed0e5" text-anchor="end" font-weight="400">t →</text>

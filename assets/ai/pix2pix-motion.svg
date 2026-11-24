@@ -9,9 +9,13 @@
 <style>text {font-family:'SFMono-Regular',Consolas,'Liberation Mono',monospace}
 @media (prefers-reduced-motion: no-preference) {
 
-  .trace {stroke-dasharray:12 110;animation:pass 1.2s ease-in-out 1}
-  .main {animation-delay:.12s;animation-duration:1.68s}
-  @keyframes pass {0%{stroke-dashoffset:16;opacity:0} 12%{opacity:.95} 86%{opacity:.95} 100%{stroke-dashoffset:-100;opacity:0}}
+  .trace {stroke-dasharray:12 110;animation:pass 6s ease-in-out infinite}
+  .main {animation-delay:.12s}
+  @keyframes pass {
+    0% {stroke-dashoffset:16;opacity:0}
+    3%,23% {opacity:.95}
+    28%,100% {stroke-dashoffset:-100;opacity:0}
+  }
 
 }</style>
 <rect x=".75" y=".75" width="466.5" height="165.5" rx="12" fill="url(#paper)" stroke="#3d566d" stroke-width="1.5"/>

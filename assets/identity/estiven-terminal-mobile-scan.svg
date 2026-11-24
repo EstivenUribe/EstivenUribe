@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="420" height="217" viewBox="0 0 420 217" role="img" aria-labelledby="title desc">
 <title id="title">Rafael Estiven Uribe Álvarez · Medellín, Colombia</title>
-<desc id="desc">Backend / APIs / SQL. Medellín, Colombia. Elevation: USGS and NGA, GMTED2010 (7.5 arc seconds, median). Lettering: Space Mono Bold.</desc>
+<desc id="desc">Backend / APIs / SQL / Machine Learning. Medellín, Colombia. Elevation: USGS and NGA, GMTED2010 (7.5 arc seconds, median). Lettering: Space Mono Bold.</desc>
 <metadata>https://www.usgs.gov/coastal-changes-and-impacts/gmted2010</metadata>
 <defs>
   <linearGradient id="ink" x2="1" y2=".15" gradientUnits="objectBoundingBox"><stop stop-color="#091322"/><stop offset=".60" stop-color="#0c1a2c"/><stop offset="1" stop-color="#102139"/></linearGradient>
@@ -29,8 +29,8 @@
   text {font-family:'SFMono-Regular',Consolas,'Liberation Mono',monospace}
 
   .sweep {opacity:0;filter:brightness(2.4)}
-  @media (prefers-reduced-motion: no-preference) {.sweep {animation:survey .72s ease-out 1}}
-  @keyframes survey {0%,100% {opacity:0} 40% {opacity:.85}}
+  @media (prefers-reduced-motion: no-preference) {.sweep {animation:survey 6s ease-out infinite}}
+  @keyframes survey {0%,14%,100% {opacity:0} 5% {opacity:.85}}
 
 </style>
 <g clip-path="url(#panel)">
@@ -139,7 +139,7 @@
   <text x="53" y="30" font-size="13" fill="#d3e1f3" letter-spacing=".2">~/EstivenUribe</text><text x="399" y="30" font-size="12" fill="#aabbd3" text-anchor="end" letter-spacing="1">COLOMBIA</text><text x="399" y="206" font-size="12.5" fill="#b5cce0" text-anchor="end" letter-spacing="1.15">MEDELLÍN</text>
   <g fill="#f2f7ff"><g transform="translate(20 84) scale(0.0405 -0.0405)"><use href="#g82" xlink:href="#g82" x="0.0"/><use href="#g97" xlink:href="#g97" x="570.0"/><use href="#g102" xlink:href="#g102" x="1140.0"/><use href="#g97" xlink:href="#g97" x="1710.1"/><use href="#g101" xlink:href="#g101" x="2280.1"/><use href="#g108" xlink:href="#g108" x="2850.1"/><use href="#g69" xlink:href="#g69" x="3990.2"/><use href="#g115" xlink:href="#g115" x="4560.2"/><use href="#g116" xlink:href="#g116" x="5130.2"/><use href="#g105" xlink:href="#g105" x="5700.2"/><use href="#g118" xlink:href="#g118" x="6270.3"/><use href="#g101" xlink:href="#g101" x="6840.3"/><use href="#g110" xlink:href="#g110" x="7410.3"/></g><g transform="translate(20 127) scale(0.0405 -0.0405)"><use href="#g85" xlink:href="#g85" x="0.0"/><use href="#g114" xlink:href="#g114" x="570.0"/><use href="#g105" xlink:href="#g105" x="1140.0"/><use href="#g98" xlink:href="#g98" x="1710.1"/><use href="#g101" xlink:href="#g101" x="2280.1"/><use href="#g193" xlink:href="#g193" x="3420.1"/><use href="#g108" xlink:href="#g108" x="3990.2"/><use href="#g118" xlink:href="#g118" x="4560.2"/><use href="#g97" xlink:href="#g97" x="5130.2"/><use href="#g114" xlink:href="#g114" x="5700.2"/><use href="#g101" xlink:href="#g101" x="6270.3"/><use href="#g122" xlink:href="#g122" x="6840.3"/></g></g>
   <path d="M325.1 128h17.4" stroke="#72e6eb" stroke-width="3.8"/>
-  <text x="20" y="167" font-size="14.1" fill="#d7e6fa" >Backend</text><text x="89.09" y="167" font-size="14.1" fill="#4b8ead" >/</text><text x="107.138" y="167" font-size="14.1" fill="#d7e6fa" >APIs</text><text x="150.848" y="167" font-size="14.1" fill="#4b8ead" >/</text><text x="168.89600000000002" y="167" font-size="14.1" fill="#d7e6fa" >SQL</text>
+  <text x="20" y="158" font-size="14.1" fill="#d7e6fa" >Backend</text><text x="89.09" y="158" font-size="14.1" fill="#4b8ead" >/</text><text x="107.138" y="158" font-size="14.1" fill="#d7e6fa" >APIs</text><text x="150.848" y="158" font-size="14.1" fill="#4b8ead" >/</text><text x="168.89600000000002" y="158" font-size="14.1" fill="#d7e6fa" >SQL</text><text x="20" y="183" font-size="14.1" fill="#83e5e9" font-weight="600">Machine Learning</text>
 </g>
 <rect x=".75" y=".75" width="418.5" height="215.5" rx="13" fill="none" stroke="#334964" stroke-width="1.5"/>
 </svg>
