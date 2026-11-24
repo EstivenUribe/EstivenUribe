@@ -1,0 +1,3 @@
+input_window_samples,lstm_units,epochs,training_windows,forecast_horizon_steps,recursive_rmse_first_40_steps
+10,50,3,891,99,0.0206
+1,50,3,899,100,1.0835

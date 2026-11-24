@@ -1,6 +1,7 @@
 <p align="right"><samp><a href="https://github.com/EstivenUribe" lang="en">English</a> · <strong>Español</strong></samp></p>
 
 <h1><picture>
+  <source media="(max-width: 680px) and (prefers-reduced-motion: no-preference)" srcset="./assets/identity/estiven-terminal-mobile-scan.svg">
   <source media="(max-width: 680px)" srcset="./assets/identity/estiven-terminal-mobile.svg">
   <source media="(prefers-reduced-motion: no-preference)" srcset="./assets/identity/estiven-terminal-scan.svg">
   <img src="./assets/identity/estiven-terminal.svg" width="100%" alt="Rafael Estiven Uribe Álvarez · Backend, APIs, SQL · Medellín, Colombia">
@@ -22,7 +23,7 @@
 
 </details>
 
-**Soy desarrollador de software e ingeniero civil.** Integré un sistema de facturación con la DIAN y automaticé la validación de registros universitarios con Python y SQL. Estoy terminando Ingeniería Informática y busco oportunidades en backend e ingeniería de datos en Colombia y en el exterior.
+**Soy desarrollador de software y trabajo en sistemas backend e integración de datos.** Integré un sistema de facturación con la DIAN y automaticé la validación de registros universitarios con Python y SQL. Curso la Especialización en Inteligencia Artificial en la Universidad Nacional de Colombia.
 
 ## <samp>Proyectos destacados</samp>
 
@@ -34,7 +35,10 @@
 
 En la universidad desarrollamos una herramienta que prioriza los daños según su severidad, el tipo de daño y si la vía está en una zona crítica. [Trabajé en el flujo de reparación][road-work], desde la asignación de la cuadrilla hasta la aprobación del cierre por parte de un inspector o administrador.
 
-<img src="./assets/roadcare-priority.es.svg" width="402" alt="El mismo bache, con severidad 3 de 5, obtiene 9 puntos fuera de una zona crítica (prioridad media) y 13 dentro de ella (prioridad alta).">
+<picture>
+  <source media="(prefers-reduced-motion: no-preference)" srcset="./assets/roadcare-priority-motion.es.svg">
+  <img src="./assets/roadcare-priority.es.svg" width="440" alt="El mismo bache, con severidad 3 de 5, obtiene 9 puntos fuera de una zona crítica (prioridad media) y 13 dentro de ella (prioridad alta).">
+</picture>
 
 [Repositorio][roadcare] · [Cálculo de prioridad][priority] · [Manual de usuario][road-guide]
 
@@ -54,6 +58,19 @@ Nuestra API guarda lecturas de Open-Meteo y puede generar una alerta georreferen
 
 [Repositorio][alerto] · [Especificación OpenAPI][alerto-spec] · [Prueba del flujo de alertas][alerto-test]
 
+## <samp>IA aplicada</samp>
+
+**¿Cómo se genera una vista aérea a partir de un mapa de calles?**<br><samp>PyTorch · pix2pix · U-Net</samp>
+
+En un proyecto de clase, mi equipo hizo una prueba piloto con pix2pix usando pares de mapas y fotos aéreas. Cambiamos de 100 a 10 el peso del error píxel a píxel (L1) y comparamos ambos modelos con los mismos mapas. El esquema muestra cómo la U-Net conserva detalles de las calles al pasarlos del codificador al decodificador.
+
+<picture>
+  <source media="(prefers-reduced-motion: no-preference)" srcset="./assets/ai/pix2pix-motion.svg">
+  <img src="./assets/ai/pix2pix.svg" width="468" alt="Esquema de pix2pix. Un mapa de calles entra en una U-Net. Las conexiones de salto llevan detalles al decodificador para generar una imagen de aspecto aéreo.">
+</picture>
+
+[Volver a ver la U-Net en movimiento][replay-pix2pix] · [Resultados del piloto (CSV)](./assets/ai/pix2pix-pilot.csv) · [Artículo original][pix2pix-paper]
+
 ## <samp>Competencias técnicas</samp>
 
 <img src="./assets/icons/code.svg" width="18" height="18" alt=""> **Lenguajes** · Python, JavaScript, C#, Java y SQL.
@@ -66,21 +83,32 @@ Nuestra API guarda lecturas de Open-Meteo y puede generar una alerta georreferen
 
 <img src="./assets/icons/cloud.svg" width="18" height="18" alt=""> **Nube, redes y seguridad** · Supabase para la programación de cursos universitarios, JWT para el acceso a la API y formación en Linux y seguridad de redes.
 
-<img src="./assets/icons/network.svg" width="18" height="18" alt=""> **Aprendizaje automático** · En un curso de aprendizaje profundo usamos PyTorch y pix2pix para generar imágenes de aspecto satelital a partir de mapas. Comparamos los resultados al variar el peso de la pérdida L1.
+<img src="./assets/icons/network.svg" width="18" height="18" alt=""> **Aprendizaje automático** · PyTorch para transformar imágenes y TensorFlow/Keras para pronosticar secuencias.
 
 ## <samp>Experiencia y formación</samp>
 
-**Politécnico Colombiano Jaime Isaza Cadavid · Análisis y arquitectura de datos**<br>Analicé tendencias en registros académicos y preparé informes institucionales. Como arquitecto de datos, modelé información de sistemas internos y API externas y automaticé la validación y limpieza de datos con Python y SQL.
-
 **Eco-Tributario · Desarrollador full stack junior**<br>Desarrollé la interfaz local de facturación e integré el sistema administrativo Saint con la DIAN mediante Spring Boot para la facturación electrónica.
 
-**Formación** · Ingeniero civil y estudiante de último semestre de Ingeniería Informática en el Politécnico Colombiano Jaime Isaza Cadavid. Admitido a la Maestría en Ingeniería - Ingeniería de Sistemas de la Universidad Nacional de Colombia.
+**Politécnico Colombiano Jaime Isaza Cadavid · Análisis y arquitectura de datos**<br>Analicé tendencias en registros académicos y preparé informes institucionales. Como arquitecto de datos, modelé información de sistemas internos y API externas y automaticé la validación y limpieza de datos con Python y SQL.
+
+**Universidad Nacional de Colombia · Especialización en Inteligencia Artificial (en curso)**<br>En un ejercicio de aprendizaje profundo usé una LSTM para pronosticar una onda seno. Cada predicción volvía a entrar al modelo para calcular la siguiente. En los primeros 40 pasos, la raíz del error cuadrático medio fue **0,0206 con diez muestras previas** y **1,0835 con una sola**. Una misma altura puede corresponder a un tramo ascendente o descendente de la onda.
+
+<picture>
+  <source media="(prefers-reduced-motion: no-preference)" srcset="./assets/ai/lstm-window-motion.svg">
+  <img src="./assets/ai/lstm-window.svg" width="468" alt="Una ventana móvil resalta diez muestras consecutivas de la onda seno original que recibe la LSTM.">
+</picture>
+
+[Volver a ver la ventana en movimiento][replay-lstm] · [Resultados del ejercicio (CSV)](./assets/ai/lstm-window-results.csv)
+
+**Ingeniería Informática** · Curso el último semestre en el Politécnico Colombiano Jaime Isaza Cadavid. También soy ingeniero civil.
 
 ## <samp>Contacto</samp>
 
+Busco oportunidades en desarrollo backend e ingeniería de datos en Colombia y en equipos internacionales.
+
 [LinkedIn][linkedin] · [estiven9512@gmail.com][email] · [Perfil profesional en Himalayas][himalayas]
 
-<sub>La portada muestra el relieve del Valle de Aburrá alrededor de Medellín. Datos de elevación de <a href="https://topotools.cr.usgs.gov/gmted_viewer/viewer.htm">USGS y NGA, GMTED2010</a>.</sub>
+<sub>La portada muestra el relieve de Medellín y sus alrededores. Datos de elevación de <a href="https://topotools.cr.usgs.gov/gmted_viewer/viewer.htm">USGS y NGA, GMTED2010</a>.</sub>
 
 [roadcare]: https://github.com/EstivenUribe/RoadCare
 [priority]: https://github.com/EstivenUribe/RoadCare/blob/main/backend/app/services/ai_priority.py
@@ -102,3 +130,6 @@ Nuestra API guarda lecturas de Open-Meteo y puede generar una alerta georreferen
 [road-work]: https://github.com/EstivenUribe/RoadCare/commit/7ddc2b8587e85e0f08a93039824f2dafd2d2b54f
 [qa-work]: https://github.com/EstivenUribe/test-roboframework/commit/d967f6b1bd2eb03b1dae9db2554b4a3377ca8cd8
 [alert-work]: https://github.com/EstivenUribe/Alerto/commit/384a84ac7c516d1fe3af4979eadafd0aad14305f
+[pix2pix-paper]: https://phillipi.github.io/pix2pix/
+[replay-pix2pix]: https://raw.githubusercontent.com/EstivenUribe/EstivenUribe/main/assets/ai/pix2pix-motion.svg
+[replay-lstm]: https://raw.githubusercontent.com/EstivenUribe/EstivenUribe/main/assets/ai/lstm-window-motion.svg
