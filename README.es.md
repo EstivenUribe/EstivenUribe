@@ -1,4 +1,4 @@
-<p align="right"><samp><a href="./README.md" lang="en">English</a> · <strong>Español</strong></samp></p>
+<p align="right"><samp><a href="https://github.com/EstivenUribe" lang="en">English</a> · <strong>Español</strong></samp></p>
 
 <h1><picture>
   <source media="(max-width: 680px)" srcset="./assets/identity/estiven-terminal-mobile.svg">
