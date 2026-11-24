@@ -1,82 +1,86 @@
-<p align="right"><a href="./README.md" lang="en">English</a> · <strong>Español</strong></p>
+<p align="right"><samp><a href="./README.md" lang="en">English</a> · <strong>Español</strong></samp></p>
 
-# <img src="./assets/estiven-uribe.svg" width="39" height="39" alt=""> Rafael Estiven Uribe Álvarez
+<h1><picture>
+  <source media="(max-width: 680px)" srcset="./assets/identity/estiven-terminal-mobile.svg">
+  <source media="(prefers-reduced-motion: no-preference)" srcset="./assets/identity/estiven-terminal-scan.svg">
+  <img src="./assets/identity/estiven-terminal.svg" width="100%" alt="Rafael Estiven Uribe Álvarez · Backend, APIs, SQL · Medellín, Colombia">
+</picture></h1>
 
-**Desarrollador de software · Backend e integración de datos**  
-Medellín, Colombia
+<p align="left">
+  <a href="https://www.credly.com/badges/1fbcc50e-c05f-4293-bd6c-fbe96bf01fd8"><img src="./assets/badges/cisco-data-analytics.png" width="88" alt="Cisco Networking Academy · Data Analytics Essentials" title="Cisco Networking Academy · Data Analytics Essentials"></a>&nbsp;<a href="https://www.credly.com/badges/60cba0d4-ddd4-47a2-8194-0f593347344d"><img src="./assets/badges/cisco-linux.png" width="88" alt="Cisco Networking Academy · Linux Essentials" title="Cisco Networking Academy · Linux Essentials"></a>&nbsp;<a href="https://www.credly.com/badges/064f6c27-0a67-4558-b8df-3bf5637a909b"><img src="./assets/badges/cisco-ethical-hacker.png" width="88" alt="Cisco Networking Academy · Ethical Hacker" title="Cisco Networking Academy · Ethical Hacker"></a>
+  <a href="https://www.credly.com/badges/a139445c-dfc9-406d-8b25-26b90a69bdf1"><img src="./assets/badges/certiport-generative-ai.png" width="88" alt="Certiport (Pearson VUE) · Critical Career Skills - Generative AI Foundations" title="Certiport (Pearson VUE) · Critical Career Skills - Generative AI Foundations"></a>&nbsp;<a href="https://www.credly.com/badges/9a5901c3-b913-41b9-ae86-4d5d372ff28b"><img src="./assets/badges/coursera-watson.png" width="88" alt="Coursera (SENATEC) · Creación de aplicaciones de IA con las API de Watson" title="Coursera (SENATEC) · Creación de aplicaciones de IA con las API de Watson"></a>
+</p>
 
-Soy ingeniero civil y estoy terminando Ingeniería Informática. He conectado software de facturación con la DIAN y modelado datos académicos. Busco oportunidades en backend e ingeniería de datos en Colombia y en equipos internacionales.
+<details>
+<summary><samp>Credenciales y emisores en Credly</samp></summary>
 
-## Proyectos destacados
+- **[Data Analytics Essentials][badge-data]** · Cisco Networking Academy
+- **[Linux Essentials][badge-linux]** · Cisco Networking Academy
+- **[Ethical Hacker][badge-ethical]** · Cisco Networking Academy
+- **[Critical Career Skills - Generative AI Foundations][badge-genai]** · Certiport (Pearson VUE)
+- **[Creación de aplicaciones de IA con las API de Watson][badge-watson]** · Coursera (SENATEC)
+
+</details>
+
+**Soy desarrollador de software e ingeniero civil.** Integré un sistema de facturación con la DIAN y automaticé la validación de registros universitarios con Python y SQL. Estoy terminando Ingeniería Informática y busco oportunidades en backend e ingeniería de datos en Colombia y en el exterior.
+
+## <samp>Proyectos destacados</samp>
 
 [RoadCare](#roadcare) · [Biblioteca Pro](#biblioteca-pro) · [Alerto](#alerto)
 
-### RoadCare
+### <samp>RoadCare</samp>
 
-**Mantenimiento vial · Proyecto académico en equipo**  
-Python · FastAPI · React · PostgreSQL
+**¿Qué daño en la vía debería atender primero una cuadrilla?**<br><samp>Python · FastAPI · React · PostgreSQL</samp>
 
-Desarrollamos una aplicación web que ayuda a los inspectores a decidir qué daños en la vía atender primero. El puntaje tiene en cuenta la severidad, el tipo de daño y si el lugar es una zona crítica. Trabajé en el flujo de reparación, desde la asignación de la cuadrilla hasta la aprobación del cierre por un inspector o administrador.
+En la universidad desarrollamos una herramienta que prioriza los daños según su severidad, el tipo de daño y si la vía está en una zona crítica. [Trabajé en el flujo de reparación][road-work], desde la asignación de la cuadrilla hasta la aprobación del cierre por parte de un inspector o administrador.
 
-<img src="./assets/roadcare-priority.es.svg" width="430" alt="Ejemplo de RoadCare. Un bache de severidad 3 sobre 5 obtiene 9 puntos y prioridad media fuera de una zona crítica. Dentro de ella obtiene 13 puntos y prioridad alta.">
+<img src="./assets/roadcare-priority.es.svg" width="402" alt="El mismo bache, con severidad 3 de 5, obtiene 9 puntos fuera de una zona crítica (prioridad media) y 13 dentro de ella (prioridad alta).">
 
-[Código fuente][roadcare] · [Cálculo de prioridad][priority] · [Manual de usuario][road-guide]
+[Repositorio][roadcare] · [Cálculo de prioridad][priority] · [Manual de usuario][road-guide]
 
-### Biblioteca Pro
+### <samp>Biblioteca Pro</samp>
 
-**Pruebas de extremo a extremo para un catálogo bibliotecario · Proyecto académico en equipo**  
-Robot Framework · Selenium · Java · TestNG · Python
+**¿El libro sigue en el catálogo si se cancela su eliminación?**<br><samp>Robot Framework · Selenium · Java · TestNG · Python</samp>
 
-Automatizamos en el navegador tareas habituales de una biblioteca, desde buscar un libro por título o autor hasta comprobar que sigue en el catálogo al cancelar su eliminación. Las pruebas toman los datos de Excel. Mejoré la interfaz de Windows que usa el equipo para ejecutar las pruebas y revisar las capturas.
+Es uno de los casos que automatizamos en el navegador, junto con las búsquedas por título y autor. Las pruebas toman sus datos de Excel. [Mejoré la interfaz de Windows][qa-work] que usa el equipo para ejecutarlas y revisar las capturas de pantalla.
 
-[Código e instalación][qa] · [Pruebas del catálogo][catalog-tests] · [Interfaz de Windows][qa-launcher]
+[Repositorio e instalación][qa] · [Pruebas del catálogo][catalog-tests] · [Interfaz de Windows][qa-launcher]
 
-### Alerto
+### <samp>Alerto</samp>
 
-**API de alertas ciudadanas para Medellín · Proyecto académico en equipo**  
-C# · ASP.NET Core · Entity Framework Core · PostgreSQL · Redis
+**¿Cómo se convierte una lectura de lluvia en una alerta local?**<br><samp>C# · ASP.NET Core · Entity Framework Core · PostgreSQL · Redis</samp>
 
-La API guarda lecturas meteorológicas de Open-Meteo y puede generar una alerta georreferenciada cuando el riesgo por lluvia es alto. Incorporé la configuración de Docker para levantar juntos la API, la base de datos y la caché. Una prueba de integración recorre el inicio de sesión, la creación de la alerta y su aprobación.
+Nuestra API guarda lecturas de Open-Meteo y puede generar una alerta georreferenciada cuando hay riesgo alto por lluvias en Medellín. [Añadí la configuración de Docker][alert-work] para ejecutar juntos la API, la base de datos y la caché. Una prueba de integración recorre el inicio de sesión, la creación de la alerta y su aprobación.
 
-[Código fuente][alerto] · [Especificación OpenAPI][alerto-spec] · [Prueba del flujo de alertas][alerto-test]
+[Repositorio][alerto] · [Especificación OpenAPI][alerto-spec] · [Prueba del flujo de alertas][alerto-test]
 
-## Competencias técnicas
+## <samp>Competencias técnicas</samp>
 
 <img src="./assets/icons/code.svg" width="18" height="18" alt=""> **Lenguajes** · Python, JavaScript, C#, Java y SQL.
 
-<img src="./assets/icons/layers.svg" width="18" height="18" alt=""> **Frameworks y bibliotecas** · FastAPI y React en RoadCare, ASP.NET Core y Entity Framework Core en Alerto, y Spring Boot en facturación electrónica.
+<img src="./assets/icons/layers.svg" width="18" height="18" alt=""> **Frameworks** · FastAPI y React en RoadCare, ASP.NET Core y Entity Framework Core en Alerto, y Spring Boot en facturación electrónica.
 
 <img src="./assets/icons/database.svg" width="18" height="18" alt=""> **Bases de datos y caché** · PostgreSQL para los registros de las aplicaciones y Redis para almacenar respuestas de la API en caché.
 
-<img src="./assets/icons/terminal.svg" width="18" height="18" alt=""> **Desarrollo y pruebas** · Git, Docker Compose y OpenAPI, además de [pruebas de extremo a extremo en el navegador con Robot Framework y Selenium][qa].
+<img src="./assets/icons/terminal.svg" width="18" height="18" alt=""> **Desarrollo y pruebas** · Git, Docker Compose, OpenAPI y [pruebas de extremo a extremo con Robot Framework y Selenium][qa].
 
-<img src="./assets/icons/cloud.svg" width="18" height="18" alt=""> **Nube, redes y ciberseguridad** · Supabase para la programación de cursos universitarios, JWT para el acceso a las API y formación en Linux y seguridad de redes.
+<img src="./assets/icons/cloud.svg" width="18" height="18" alt=""> **Nube, redes y seguridad** · Supabase para la programación de cursos universitarios, JWT para el acceso a la API y formación en Linux y seguridad de redes.
 
-<img src="./assets/icons/network.svg" width="18" height="18" alt=""> **IA y aprendizaje automático** · En un curso de aprendizaje profundo usamos PyTorch y pix2pix para generar imágenes de aspecto satelital a partir de mapas. Comparamos los resultados al cambiar el peso de la pérdida L1.
+<img src="./assets/icons/network.svg" width="18" height="18" alt=""> **Aprendizaje automático** · En un curso de aprendizaje profundo usamos PyTorch y pix2pix para generar imágenes de aspecto satelital a partir de mapas. Comparamos los resultados al variar el peso de la pérdida L1.
 
-## Experiencia y formación
+## <samp>Experiencia y formación</samp>
 
-**Politécnico Colombiano Jaime Isaza Cadavid · Análisis y arquitectura de datos**  
-Analicé tendencias en registros académicos y elaboré informes institucionales. Como arquitecto de datos, modelé información de sistemas internos y API externas, y automaticé su validación y limpieza con Python y SQL.
+**Politécnico Colombiano Jaime Isaza Cadavid · Análisis y arquitectura de datos**<br>Analicé tendencias en registros académicos y preparé informes institucionales. Como arquitecto de datos, modelé información de sistemas internos y API externas y automaticé la validación y limpieza de datos con Python y SQL.
 
-**Eco-Tributario · Desarrollador full stack junior**  
-Desarrollé la interfaz local de facturación y usé Spring Boot para conectar el sistema administrativo Saint con la DIAN en el proceso de facturación electrónica.
+**Eco-Tributario · Desarrollador full stack junior**<br>Desarrollé la interfaz local de facturación e integré el sistema administrativo Saint con la DIAN mediante Spring Boot para la facturación electrónica.
 
 **Formación** · Ingeniero civil y estudiante de último semestre de Ingeniería Informática en el Politécnico Colombiano Jaime Isaza Cadavid. Admitido a la Maestría en Ingeniería - Ingeniería de Sistemas de la Universidad Nacional de Colombia.
 
-## Certificaciones e insignias digitales
-
-| Insignia | Credencial y emisor |
-| :--: | :-- |
-| [<img src="./assets/badges/cisco-data-analytics.png" width="56" alt="Verificar Data Analytics Essentials">][badge-data] | **[Data Analytics Essentials][badge-data]**<br>Cisco · Networking Academy |
-| [<img src="./assets/badges/cisco-linux.png" width="56" alt="Verificar Linux Essentials">][badge-linux] | **[Linux Essentials][badge-linux]**<br>Cisco · Networking Academy |
-| [<img src="./assets/badges/cisco-ethical-hacker.png" width="56" alt="Verificar Ethical Hacker">][badge-ethical] | **[Ethical Hacker][badge-ethical]**<br>Cisco · Networking Academy |
-| [<img src="./assets/badges/certiport-generative-ai.png" width="56" alt="Verificar Generative AI Foundations">][badge-genai] | **[Critical Career Skills - Generative AI Foundations][badge-genai]**<br>Certiport, a Pearson VUE business |
-| [<img src="./assets/badges/coursera-watson.png" width="56" alt="Verificar la insignia sobre las API de Watson">][badge-watson] | **[Creación de aplicaciones de IA con las API de Watson][badge-watson]**<br>Coursera (programa SENATEC) |
-
-## Contacto
+## <samp>Contacto</samp>
 
 [LinkedIn][linkedin] · [estiven9512@gmail.com][email] · [Perfil profesional en Himalayas][himalayas]
+
+<sub>La portada muestra el relieve del Valle de Aburrá alrededor de Medellín. Datos de elevación de <a href="https://topotools.cr.usgs.gov/gmted_viewer/viewer.htm">USGS y NGA, GMTED2010</a>.</sub>
 
 [roadcare]: https://github.com/EstivenUribe/RoadCare
 [priority]: https://github.com/EstivenUribe/RoadCare/blob/main/backend/app/services/ai_priority.py
@@ -95,3 +99,6 @@ Desarrollé la interfaz local de facturación y usé Spring Boot para conectar e
 [linkedin]: https://www.linkedin.com/in/rafaeluribealvarez/
 [email]: mailto:estiven9512@gmail.com
 [himalayas]: https://himalayas.app/@estivenuribealvarez
+[road-work]: https://github.com/EstivenUribe/RoadCare/commit/7ddc2b8587e85e0f08a93039824f2dafd2d2b54f
+[qa-work]: https://github.com/EstivenUribe/test-roboframework/commit/d967f6b1bd2eb03b1dae9db2554b4a3377ca8cd8
+[alert-work]: https://github.com/EstivenUribe/Alerto/commit/384a84ac7c516d1fe3af4979eadafd0aad14305f
